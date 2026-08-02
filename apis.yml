@@ -1,8 +1,26 @@
 aid: true-link-financial
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/true-link-financial.png
 name: True Link Financial
-description: True Link Financial is a company surfaced as a portfolio company of a16z, initialized-capital
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: True Link Financial provides financial management and protection services
+  for vulnerable populations and their caregivers. Its flagship True Link Visa Prepaid
+  Card gives families, guardians, and fiduciaries customizable spending controls, real-time
+  transaction alerts, and monitoring for aging adults, people with disabilities, and
+  individuals in recovery. Through True Link Financial Advisors, LLC the company also
+  offers investment management for trust beneficiaries (over $1.67 billion in assets),
+  plus professional tools for representative payees, fiduciaries, and non-profit trustees,
+  and white-label banking integrations for banks and credit unions. The company currently
+  publishes no public API, developer portal, or developer documentation.
 url: https://raw.githubusercontent.com/api-evangelist/true-link-financial/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,9 +31,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Financial Services
+- Fintech
+- Prepaid Cards
+- Wealth Management
+- Payments
+- Trust Management
+- Elder Care
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +48,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/true-link-financial-domain-security.yml
 - type: Website
   url: https://truelinkfinancial.com/
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
